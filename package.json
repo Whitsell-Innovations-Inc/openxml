@@ -27,6 +27,6 @@
   "dependencies": {
     "jszip": "^2.5.0",
     "linq": "^3.0.5",
-    "ltxml": "jthuraisamy/ltxml"
+    "ltxml": "seanwhitsellAtWork/ltxml"
   }
 }

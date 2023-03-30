@@ -324,7 +324,7 @@ function saveToZip(that) {
                 var cte = that.ctXDoc.getRoot().elements(CT.Override).firstOrDefault(function (e) {
                     return e.attribute("PartName").value === part;
                 });
-                if (cte === null) {
+                if (cte === null || cte == undefined) {
                     var extension = part
                         .substring(part.lastIndexOf('.') + 1)
                         .toLowerCase();
@@ -460,7 +460,7 @@ openXml.OpenXmlPackage.prototype.saveToFlatOpc = function () {
                     var b = ctpn === thpn;
                     return b;
                 });
-                if (cte === null) {
+                if (cte === null || cte == undefined) {
                     var extension = part
                         .substring(part.lastIndexOf('.') + 1).toLowerCase();
                     var dct = this.ctXDoc.getRoot().elements(CT.Default).firstOrDefault(function (e) {
@@ -1481,6 +1481,7 @@ openXml.util.encode_utf8 = function (s) {
 }
 
 openXml.util.decode_utf8 = function (s) {
+    return s;
     return decodeURIComponent(escape(s));
 }
 
