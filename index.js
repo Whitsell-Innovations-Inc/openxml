@@ -127,7 +127,13 @@ function openFromZip(zip, pkg) {
 
             // Use getter asText() to get the text content of zipFile.
             // Detail https://stuk.github.io/jszip/documentation/upgrade_guide.html
-            var newPart = new openXml.OpenXmlPart(pkg, f2, null, null, zipFile.asText());
+            var newPart;
+            
+            if (!openXml.util.endsWith(f, 'xml') && !openXml.util.endsWith(f, 'rels')) {
+                newPart = new openXml.OpenXmlPart(pkg, f2, null, null, zipFile.asBinary());
+            } else {
+                newPart = new openXml.OpenXmlPart(pkg, f2, null, null, zipFile.asText());
+            }
             pkg.parts[f2] = newPart;
 
         }
