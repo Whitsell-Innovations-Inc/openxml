@@ -150,6 +150,9 @@ function openFromZip(zip, pkg) {
         var ct = pkg.getContentType(part);
         var thisPart = pkg.parts[part];
         thisPart.contentType = ct;
+        if (!ct) {
+            continue;
+        }
         if (openXml.util.endsWith(ct, "xml")) {
             thisPart.partType = "xml";
         }
@@ -888,7 +891,7 @@ openXml.OpenXmlPackage.prototype.getContentType = function (uri) {
             .firstOrDefault(function (d) {
                 return d.attribute("Extension").value === ext;
             });
-        if (dct !== null) {
+        if (dct) {
             return dct.attribute("ContentType").value;
         }
         return null;
