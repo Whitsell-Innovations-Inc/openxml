@@ -128,7 +128,7 @@ function openFromZip(zip, pkg) {
             // Use getter asText() to get the text content of zipFile.
             // Detail https://stuk.github.io/jszip/documentation/upgrade_guide.html
             var newPart;
-            
+
             if (!openXml.util.endsWith(f, 'xml') && !openXml.util.endsWith(f, 'rels')) {
                 newPart = new openXml.OpenXmlPart(pkg, f2, null, null, zipFile.asBinary());
             } else {
@@ -2381,6 +2381,7 @@ openXml.A = {
     tailEnd: new XName(aNs, "tailEnd"),
     tbl: new XName(aNs, "tbl"),
     tblBg: new XName(aNs, "tblBg"),
+    tblDescription: new XName(aNs, "tblDescription"),
     tblGrid: new XName(aNs, "tblGrid"),
     tblPr: new XName(aNs, "tblPr"),
     tblStyle: new XName(aNs, "tblStyle"),
@@ -5210,6 +5211,7 @@ openXml.W = {
     tblBorders: new XName(wNs, "tblBorders"),
     tblCellMar: new XName(wNs, "tblCellMar"),
     tblCellSpacing: new XName(wNs, "tblCellSpacing"),
+    tblDescription: new XName(wNs, "tblDescription"),
     tblGrid: new XName(wNs, "tblGrid"),
     tblGridChange: new XName(wNs, "tblGridChange"),
     tblHeader: new XName(wNs, "tblHeader"),
