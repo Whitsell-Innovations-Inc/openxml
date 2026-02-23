@@ -1118,6 +1118,10 @@ openXml.OpenXmlPart.prototype.wordprocessingCommentsPart = function () {
     return this.getPartByRelationshipType(openXml.relationshipTypes.wordprocessingComments);
 };
 
+openXml.OpenXmlPart.prototype.wordprocessingCommentsExtendedPart = function () {
+    return this.getPartByRelationshipType(openXml.relationshipTypes.wordprocessingCommentsExtended);
+};
+
 openXml.OpenXmlPart.prototype.fontTablePart = function () {
     return this.getPartByRelationshipType(openXml.relationshipTypes.fontTable);
 };
@@ -2080,6 +2084,7 @@ openXml.relationshipTypes = {
     webSettings: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/webSettings",
     wordAttachedToolbars: "http://schemas.microsoft.com/office/2006/relationships/attachedToolbars",
     wordprocessingComments: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments",
+    wordprocessingCommentsExtended: "http://schemas.microsoft.com/office/2011/relationships/commentsExtended",
     workbook: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
     workbookRevisionHeader: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/revisionHeaders",
     workbookRevisionLog: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/revisionLog",
