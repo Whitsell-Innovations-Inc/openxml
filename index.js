@@ -5564,7 +5564,7 @@ openXml.W15 = {
     numSpacing: new XName(w15Ns, "numSpacing"),
     nvContentPartPr: new XName(w15Ns, "nvContentPartPr"),
     paraId: new XName(w15Ns, "paraId"),
-    paraParentId: new XName(w15Ns, "paraParentId"),
+    paraIdParent: new XName(w15Ns, "paraParentId"),
     path: new XName(w15Ns, "path"),
     pos: new XName(w15Ns, "pos"),
     props3d: new XName(w15Ns, "props3d"),
