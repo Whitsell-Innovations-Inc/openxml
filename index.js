@@ -1938,6 +1938,7 @@ openXml.contentTypes = {
     chartsheet: "application/vnd.openxmlformats-officedocument.spreadsheetml.chartsheet+xml",
     chartStyle: "application/vnd.ms-office.chartstyle+xml",
     commentAuthors: "application/vnd.openxmlformats-officedocument.presentationml.commentAuthors+xml",
+    commentsIds: "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsIds+xml",
     connections: "application/vnd.openxmlformats-officedocument.spreadsheetml.connections+xml",
     coreFileProperties: "application/vnd.openxmlformats-package.core-properties+xml",
     customFileProperties: "application/vnd.openxmlformats-officedocument.custom-properties+xml",
@@ -2031,6 +2032,7 @@ openXml.relationshipTypes = {
     chartsheet: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/chartsheet",
     chartStyle: "http://schemas.microsoft.com/office/2011/relationships/chartStyle",
     commentAuthors: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/commentAuthors",
+    commentsIds: "http://schemas.microsoft.com/office/2016/09/relationships/commentsIds",
     connections: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/connections",
     coreFileProperties: "http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties",
     customFileProperties: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/custom-properties",
@@ -5482,13 +5484,13 @@ openXml.W15 = {
 };
 var W15 = openXml.W15;
 
-openXml.w16Ns = new XNamespace("http://schemas.microsoft.com/office/word/2016/wordml/cid");
-var w16Ns = openXml.w16Ns;
+openXml.w16cidNs = new XNamespace("http://schemas.microsoft.com/office/word/2016/wordml/cid");
+var w16cidNs = openXml.w16cidNs;
 openXml.W16CID = {
-    commentIds: new XName(w16Ns, "commentIds"),
-    commentId: new XName(w16Ns, "commentId"),
-    durableId: new XName(w16Ns, "durableId"),
-    paraId: new XName(w16Ns, "paraId"),
+    commentsIds: new XName(w16cidNs, "commentIds"),
+    commentId: new XName(w16cidNs, "commentId"),
+    durableId: new XName(w16cidNs, "durableId"),
+    paraId: new XName(w16cidNs, "paraId"),
 };
 var W16CID = openXml.W16CID;
 
