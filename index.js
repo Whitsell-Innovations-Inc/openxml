@@ -1122,6 +1122,10 @@ openXml.OpenXmlPart.prototype.wordprocessingCommentsExtendedPart = function () {
     return this.getPartByRelationshipType(openXml.relationshipTypes.wordprocessingCommentsExtended);
 };
 
+openXml.OpenXmlPart.prototype.wordprocessingCommentsIdsPart = function () {
+    return this.getPartByRelationshipType(openXml.relationshipTypes.wordprocessingCommentsIds);
+};
+
 openXml.OpenXmlPart.prototype.fontTablePart = function () {
     return this.getPartByRelationshipType(openXml.relationshipTypes.fontTable);
 };
@@ -2001,6 +2005,8 @@ openXml.contentTypes = {
     webSettings: "application/vnd.openxmlformats-officedocument.wordprocessingml.webSettings+xml",
     wordAttachedToolbars: "application/vnd.ms-word.attachedToolbars",
     wordprocessingComments: "application/vnd.openxmlformats-officedocument.wordprocessingml.comments+xml",
+    wordprocessingCommentsExtended: "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsExtended+xml",
+    wordprocessingCommentsIds: "application/vnd.openxmlformats-officedocument.wordprocessingml.commentsIds+xml",
     wordprocessingTemplate: "application/vnd.openxmlformats-officedocument.wordprocessingml.template.main+xml",
     workbook: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet.main+xml",
     workbookRevisionHeader: "application/vnd.openxmlformats-officedocument.spreadsheetml.revisionHeaders+xml",
@@ -2085,6 +2091,7 @@ openXml.relationshipTypes = {
     wordAttachedToolbars: "http://schemas.microsoft.com/office/2006/relationships/attachedToolbars",
     wordprocessingComments: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/comments",
     wordprocessingCommentsExtended: "http://schemas.microsoft.com/office/2011/relationships/commentsExtended",
+    wordprocessingCommentsIds: "http://schemas.microsoft.com/office/2016/09/relationships/commentsIds",
     workbook: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/officeDocument",
     workbookRevisionHeader: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/revisionHeaders",
     workbookRevisionLog: "http://schemas.openxmlformats.org/officeDocument/2006/relationships/revisionLog",
@@ -5468,6 +5475,8 @@ openXml.W15 = {
     commentsEx: new XName(w15Ns, "commentsEx"),
     contextualSpacing: new XName(w15Ns, "contextualSpacing"),
     done: new XName(w15Ns, "done"),
+    hidden: new XName(w15Ns, "hidden"),
+    val: new XName(w15Ns, "val"),
     paraId: new XName(w15Ns, "paraId"),
     paraIdParent: new XName(w15Ns, "paraIdParent"),
 };
