@@ -5482,6 +5482,16 @@ openXml.W15 = {
 };
 var W15 = openXml.W15;
 
+openXml.w16Ns = new XNamespace("http://schemas.microsoft.com/office/word/2016/wordml/cid");
+var w16Ns = openXml.w16Ns;
+openXml.W16 = {
+    commentIds: new XName(w16Ns, "commentIds"),
+    commentId: new XName(w16Ns, "commentId"),
+    durableId: new XName(w16Ns, "durableId"),
+    paraId: new XName(w16Ns, "paraId"),
+};
+var W16 = openXml.W16;
+
 openXml.w3digsigNs = new XNamespace("http://www.w3.org/2000/09/xmldsig#");
 var w3digsigNs = openXml.w3digsigNs;
 openXml.W3DIGSIG = {
