@@ -5487,7 +5487,7 @@ var W15 = openXml.W15;
 openXml.w16cidNs = new XNamespace("http://schemas.microsoft.com/office/word/2016/wordml/cid");
 var w16cidNs = openXml.w16cidNs;
 openXml.W16CID = {
-    commentsIds: new XName(w16cidNs, "commentIds"),
+    commentsIds: new XName(w16cidNs, "commentsIds"),
     commentId: new XName(w16cidNs, "commentId"),
     durableId: new XName(w16cidNs, "durableId"),
     paraId: new XName(w16cidNs, "paraId"),
