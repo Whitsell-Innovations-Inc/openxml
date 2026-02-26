@@ -2107,7 +2107,7 @@ openXml.relationshipTypes = {
 
 /******************************** automatically generated code ********************************/
 
-openXml.aNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/main");
+openXml.aNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/main", "a");
 var aNs = openXml.aNs;
 openXml.A = {
     accent1: new XName(aNs, "accent1"),
@@ -2429,7 +2429,7 @@ openXml.A = {
 }
 var A = openXml.A;
 
-openXml.a14Ns = new XNamespace("http://schemas.microsoft.com/office/drawing/2010/main");
+openXml.a14Ns = new XNamespace("http://schemas.microsoft.com/office/drawing/2010/main", "a14");
 var a14Ns = openXml.a14Ns;
 openXml.A14 = {
     artisticChalkSketch: new XName(a14Ns, "artisticChalkSketch"),
@@ -2464,7 +2464,7 @@ openXml.A14 = {
 }
 var A14 = openXml.A14;
 
-openXml.cNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/chart");
+openXml.cNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/chart", "c");
 var cNs = openXml.cNs;
 openXml.C = {
     applyToEnd: new XName(cNs, "applyToEnd"),
@@ -2686,7 +2686,7 @@ openXml.C = {
 }
 var C = openXml.C;
 
-openXml.cdrNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/chartDrawing");
+openXml.cdrNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/chartDrawing", "cdr");
 var cdrNs = openXml.cdrNs;
 openXml.CDR = {
     absSizeAnchor: new XName(cdrNs, "absSizeAnchor"),
@@ -2721,14 +2721,14 @@ openXml.CDR = {
 }
 var CDR = openXml.CDR;
 
-openXml.comNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/compatibility");
+openXml.comNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/compatibility", "com");
 var comNs = openXml.comNs;
 openXml.COM = {
     legacyDrawing: new XName(comNs, "legacyDrawing"),
 }
 var COM = openXml.COM;
 
-openXml.cpNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/metadata/core-properties");
+openXml.cpNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/metadata/core-properties", "cp");
 var cpNs = openXml.cpNs;
 openXml.CP = {
     category: new XName(cpNs, "category"),
@@ -2742,7 +2742,7 @@ openXml.CP = {
 }
 var CP = openXml.CP;
 
-openXml.custproNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/custom-properties");
+openXml.custproNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/custom-properties", "custpro");
 var custproNs = openXml.custproNs;
 openXml.CUSTPRO = {
     Properties: new XName(custproNs, "Properties"),
@@ -2750,7 +2750,7 @@ openXml.CUSTPRO = {
 }
 var CUSTPRO = openXml.CUSTPRO;
 
-openXml.dcNs = new XNamespace("http://purl.org/dc/elements/1.1/");
+openXml.dcNs = new XNamespace("http://purl.org/dc/elements/1.1/", "dc");
 var dcNs = openXml.dcNs;
 openXml.DC = {
     creator: new XName(dcNs, "creator"),
@@ -2760,7 +2760,7 @@ openXml.DC = {
 }
 var DC = openXml.DC;
 
-openXml.dctermsNs = new XNamespace("http://purl.org/dc/terms/");
+openXml.dctermsNs = new XNamespace("http://purl.org/dc/terms/", "dcterms");
 var dctermsNs = openXml.dctermsNs;
 openXml.DCTERMS = {
     created: new XName(dctermsNs, "created"),
@@ -2768,7 +2768,7 @@ openXml.DCTERMS = {
 }
 var DCTERMS = openXml.DCTERMS;
 
-openXml.dgmNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/diagram");
+openXml.dgmNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/diagram", "dgm");
 var dgmNs = openXml.dgmNs;
 openXml.DGM = {
     adj: new XName(dgmNs, "adj"),
@@ -2833,7 +2833,7 @@ openXml.DGM = {
 }
 var DGM = openXml.DGM;
 
-openXml.dgm14Ns = new XNamespace("http://schemas.microsoft.com/office/drawing/2010/diagram");
+openXml.dgm14Ns = new XNamespace("http://schemas.microsoft.com/office/drawing/2010/diagram", "dgm14");
 var dgm14Ns = openXml.dgm14Ns;
 openXml.DGM14 = {
     cNvPr: new XName(dgm14Ns, "cNvPr"),
@@ -2841,7 +2841,7 @@ openXml.DGM14 = {
 }
 var DGM14 = openXml.DGM14;
 
-openXml.digsigNs = new XNamespace("http://schemas.microsoft.com/office/2006/digsig");
+openXml.digsigNs = new XNamespace("http://schemas.microsoft.com/office/2006/digsig", "digsig");
 var digsigNs = openXml.digsigNs;
 openXml.DIGSIG = {
     ApplicationVersion: new XName(digsigNs, "ApplicationVersion"),
@@ -2864,7 +2864,7 @@ openXml.DIGSIG = {
 }
 var DIGSIG = openXml.DIGSIG;
 
-openXml.dsNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/customXml");
+openXml.dsNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/customXml", "ds");
 var dsNs = openXml.dsNs;
 openXml.DS = {
     datastoreItem: new XName(dsNs, "datastoreItem"),
@@ -2875,14 +2875,14 @@ openXml.DS = {
 }
 var DS = openXml.DS;
 
-openXml.dspNs = new XNamespace("http://schemas.microsoft.com/office/drawing/2008/diagram");
+openXml.dspNs = new XNamespace("http://schemas.microsoft.com/office/drawing/2008/diagram", "dsp");
 var dspNs = openXml.dspNs;
 openXml.DSP = {
     dataModelExt: new XName(dspNs, "dataModelExt"),
 }
 var DSP = openXml.DSP;
 
-openXml.epNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/extended-properties");
+openXml.epNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/extended-properties", "ep");
 var epNs = openXml.epNs;
 openXml.EP = {
     Application: new XName(epNs, "Application"),
@@ -2915,14 +2915,14 @@ openXml.EP = {
 }
 var EP = openXml.EP;
 
-openXml.lcNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas");
+openXml.lcNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/lockedCanvas", "lc");
 var lcNs = openXml.lcNs;
 openXml.LC = {
     lockedCanvas: new XName(lcNs, "lockedCanvas"),
 }
 var LC = openXml.LC;
 
-openXml.mNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/math");
+openXml.mNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/math", "m");
 var mNs = openXml.mNs;
 openXml.M = {
     acc: new XName(mNs, "acc"),
@@ -3054,7 +3054,7 @@ openXml.M = {
 }
 var M = openXml.M;
 
-openXml.mcNs = new XNamespace("http://schemas.openxmlformats.org/markup-compatibility/2006");
+openXml.mcNs = new XNamespace("http://schemas.openxmlformats.org/markup-compatibility/2006", "mc");
 var mcNs = openXml.mcNs;
 openXml.MC = {
     AlternateContent: new XName(mcNs, "AlternateContent"),
@@ -3065,7 +3065,7 @@ openXml.MC = {
 }
 var MC = openXml.MC;
 
-openXml.mdssiNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/digital-signature");
+openXml.mdssiNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/digital-signature", "mdssi");
 var mdssiNs = openXml.mdssiNs;
 openXml.MDSSI = {
     Format: new XName(mdssiNs, "Format"),
@@ -3075,7 +3075,7 @@ openXml.MDSSI = {
 }
 var MDSSI = openXml.MDSSI;
 
-openXml.mpNs = new XNamespace("http://schemas.microsoft.com/office/mac/powerpoint/2008/main");
+openXml.mpNs = new XNamespace("http://schemas.microsoft.com/office/mac/powerpoint/2008/main", "mp");
 var mpNs = openXml.mpNs;
 openXml.MP = {
     cube: new XName(mpNs, "cube"),
@@ -3740,7 +3740,7 @@ openXml.NoNamespace = {
 }
 var NoNamespace = openXml.NoNamespace;
 
-openXml.oNs = new XNamespace("urn:schemas-microsoft-com:office:office");
+openXml.oNs = new XNamespace("urn:schemas-microsoft-com:office:office", "o");
 var oNs = openXml.oNs;
 openXml.O = {
     allowincell: new XName(oNs, "allowincell"),
@@ -3831,7 +3831,7 @@ openXml.O = {
 }
 var O = openXml.O;
 
-openXml.pNs = new XNamespace("http://schemas.openxmlformats.org/presentationml/2006/main");
+openXml.pNs = new XNamespace("http://schemas.openxmlformats.org/presentationml/2006/main", "p");
 var pNs = openXml.pNs;
 openXml.P = {
     anim: new XName(pNs, "anim"),
@@ -4034,7 +4034,7 @@ openXml.P = {
 }
 var P = openXml.P;
 
-openXml.p14Ns = new XNamespace("http://schemas.microsoft.com/office/powerpoint/2010/main");
+openXml.p14Ns = new XNamespace("http://schemas.microsoft.com/office/powerpoint/2010/main", "p14");
 var p14Ns = openXml.p14Ns;
 openXml.P14 = {
     bmk: new XName(p14Ns, "bmk"),
@@ -4091,14 +4091,14 @@ openXml.P14 = {
 }
 var P14 = openXml.P14;
 
-openXml.p15Ns = new XNamespace("http://schemas.microsoft.com/office15/powerpoint");
+openXml.p15Ns = new XNamespace("http://schemas.microsoft.com/office15/powerpoint", "p15");
 var p15Ns = openXml.p15Ns;
 openXml.P15 = {
     extElement: new XName(p15Ns, "extElement"),
 }
 var P15 = openXml.P15;
 
-openXml.picNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/picture");
+openXml.picNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/picture", "pic");
 var picNs = openXml.picNs;
 openXml.Pic = {
     blipFill: new XName(picNs, "blipFill"),
@@ -4110,7 +4110,7 @@ openXml.Pic = {
 }
 var Pic = openXml.Pic;
 
-openXml.rNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/relationships");
+openXml.rNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/relationships", "r");
 
 var rNs = openXml.rNs;
 openXml.R = {
@@ -4128,7 +4128,7 @@ openXml.R = {
 }
 var R = openXml.R;
 
-openXml.sNs = new XNamespace("http://schemas.openxmlformats.org/spreadsheetml/2006/main");
+openXml.sNs = new XNamespace("http://schemas.openxmlformats.org/spreadsheetml/2006/main", "s");
 var sNs = openXml.sNs;
 openXml.S = {
     alignment: new XName(sNs, "alignment"),
@@ -4497,7 +4497,7 @@ openXml.S = {
 }
 var S = openXml.S;
 
-openXml.slNs = new XNamespace("http://schemas.openxmlformats.org/schemaLibrary/2006/main");
+openXml.slNs = new XNamespace("http://schemas.openxmlformats.org/schemaLibrary/2006/main", "sl");
 var slNs = openXml.slNs;
 openXml.SL = {
     manifestLocation: new XName(slNs, "manifestLocation"),
@@ -4507,14 +4507,14 @@ openXml.SL = {
 }
 var SL = openXml.SL;
 
-openXml.sleNs = new XNamespace("http://schemas.microsoft.com/office/drawing/2010/slicer");
+openXml.sleNs = new XNamespace("http://schemas.microsoft.com/office/drawing/2010/slicer", "sle");
 var sleNs = openXml.sleNs;
 openXml.SLE = {
     slicer: new XName(sleNs, "slicer"),
 }
 var SLE = openXml.SLE;
 
-openXml.vmlNs = new XNamespace("urn:schemas-microsoft-com:vml");
+openXml.vmlNs = new XNamespace("urn:schemas-microsoft-com:vml", "vml");
 var vmlNs = openXml.vmlNs;
 openXml.VML = {
     arc: new XName(vmlNs, "arc"),
@@ -4544,7 +4544,7 @@ openXml.VML = {
 }
 var VML = openXml.VML;
 
-openXml.vtNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes");
+openXml.vtNs = new XNamespace("http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes", "vt");
 var vtNs = openXml.vtNs;
 openXml.VT = {
     _bool: new XName(vtNs, "bool"),
@@ -5349,7 +5349,7 @@ openXml.W = {
 }
 var W = openXml.W;
 
-openXml.w10Ns = new XNamespace("urn:schemas-microsoft-com:office:word");
+openXml.w10Ns = new XNamespace("urn:schemas-microsoft-com:office:word", 'w10');
 var w10Ns = openXml.w10Ns;
 openXml.W10 = {
     anchorlock: new XName(w10Ns, "anchorlock"),
@@ -5469,7 +5469,7 @@ openXml.W14 = {
 }
 var W14 = openXml.W14;
 
-openXml.w15Ns = new XNamespace("http://schemas.microsoft.com/office/word/2012/wordml");
+openXml.w15Ns = new XNamespace("http://schemas.microsoft.com/office/word/2012/wordml", "w15");
 var w15Ns = openXml.w15Ns;
 openXml.W15 = {
     appearance: new XName(w15Ns, "appearance"),
@@ -5484,7 +5484,7 @@ openXml.W15 = {
 };
 var W15 = openXml.W15;
 
-openXml.w16cidNs = new XNamespace("http://schemas.microsoft.com/office/word/2016/wordml/cid");
+openXml.w16cidNs = new XNamespace("http://schemas.microsoft.com/office/word/2016/wordml/cid", "w16cid");
 var w16cidNs = openXml.w16cidNs;
 openXml.W16CID = {
     commentsIds: new XName(w16cidNs, "commentsIds"),
@@ -5494,7 +5494,7 @@ openXml.W16CID = {
 };
 var W16CID = openXml.W16CID;
 
-openXml.w3digsigNs = new XNamespace("http://www.w3.org/2000/09/xmldsig#");
+openXml.w3digsigNs = new XNamespace("http://www.w3.org/2000/09/xmldsig#", "w3digsig");
 var w3digsigNs = openXml.w3digsigNs;
 openXml.W3DIGSIG = {
     CanonicalizationMethod: new XName(w3digsigNs, "CanonicalizationMethod"),
@@ -5523,7 +5523,7 @@ openXml.W3DIGSIG = {
 }
 var W3DIGSIG = openXml.W3DIGSIG;
 
-openXml.wpNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing");
+openXml.wpNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing", "wp");
 var wpNs = openXml.wpNs;
 openXml.WP = {
     align: new XName(wpNs, "align"),
@@ -5548,7 +5548,7 @@ openXml.WP = {
 }
 var WP = openXml.WP;
 
-openXml.wp14Ns = new XNamespace("http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing");
+openXml.wp14Ns = new XNamespace("http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing", "wp14");
 var wp14Ns = openXml.wp14Ns;
 openXml.WP14 = {
     editId: new XName(wp14Ns, "editId"),
@@ -5560,7 +5560,7 @@ openXml.WP14 = {
 }
 var WP14 = openXml.WP14;
 
-openXml.wpsNs = new XNamespace("http://schemas.microsoft.com/office/word/2010/wordprocessingShape");
+openXml.wpsNs = new XNamespace("http://schemas.microsoft.com/office/word/2010/wordprocessingShape", "wps");
 var wpsNs = openXml.wpsNs;
 openXml.WPS = {
     altTxbx: new XName(wpsNs, "altTxbx"),
@@ -5574,7 +5574,7 @@ openXml.WPS = {
 }
 var WPS = openXml.WPS;
 
-openXml.xNs = new XNamespace("urn:schemas-microsoft-com:office:excel");
+openXml.xNs = new XNamespace("urn:schemas-microsoft-com:office:excel", "x");
 var xNs = openXml.xNs;
 openXml.X = {
     Anchor: new XName(xNs, "Anchor"),
@@ -5587,7 +5587,7 @@ openXml.X = {
 }
 var X = openXml.X;
 
-openXml.xdrNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing");
+openXml.xdrNs = new XNamespace("http://schemas.openxmlformats.org/drawingml/2006/spreadsheetDrawing", "xdr");
 var xdrNs = openXml.xdrNs;
 openXml.XDR = {
     absoluteAnchor: new XName(xdrNs, "absoluteAnchor"),
@@ -5629,7 +5629,7 @@ openXml.XDR = {
 }
 var XDR = openXml.XDR;
 
-openXml.xdr14Ns = new XNamespace("http://schemas.microsoft.com/office/excel/2010/spreadsheetDrawing");
+openXml.xdr14Ns = new XNamespace("http://schemas.microsoft.com/office/excel/2010/spreadsheetDrawing", "xdr14");
 var xdr14Ns = openXml.xdr14Ns;
 openXml.XDR14 = {
     cNvContentPartPr: new XName(xdr14Ns, "cNvContentPartPr"),
@@ -5640,7 +5640,7 @@ openXml.XDR14 = {
 }
 var XDR14 = openXml.XDR14;
 
-openXml.xmNs = new XNamespace("http://schemas.microsoft.com/office/excel/2006/main");
+openXml.xmNs = new XNamespace("http://schemas.microsoft.com/office/excel/2006/main", "xm");
 var xmNs = openXml.xmNs;
 openXml.XM = {
     f: new XName(xmNs, "f"),
@@ -5649,7 +5649,7 @@ openXml.XM = {
 }
 var XM = openXml.XM;
 
-openXml.xsiNs = new XNamespace("http://www.w3.org/2001/XMLSchema-instance");
+openXml.xsiNs = new XNamespace("http://www.w3.org/2001/XMLSchema-instance", "xsi");
 var xsiNs = openXml.xsiNs;
 openXml.XSI = {
     type: new XName(xsiNs, "type"),
@@ -5658,7 +5658,7 @@ var XSI = openXml.XSI;
 
 /******************************** end automatically generated code ********************************/
 
-openXml.ctNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/content-types");
+openXml.ctNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/content-types", "ct");
 var ctNs = openXml.ctNs;
 openXml.CT = {
     Override: new XName(ctNs, "Override"),
@@ -5667,7 +5667,7 @@ openXml.CT = {
 }
 var CT = openXml.CT;
 
-openXml.pkgRelNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/relationships");
+openXml.pkgRelNs = new XNamespace("http://schemas.openxmlformats.org/package/2006/relationships", "pkgRel");
 var pkgRelNs = openXml.pkgRelNs;
 openXml.PKGREL = {
     Relationships: new XName(pkgRelNs, "Relationships"),
@@ -5675,7 +5675,7 @@ openXml.PKGREL = {
 }
 var PKGREL = openXml.PKGREL;
 
-openXml.flatOpcPkgNs = new XNamespace("http://schemas.microsoft.com/office/2006/xmlPackage");
+openXml.flatOpcPkgNs = new XNamespace("http://schemas.microsoft.com/office/2006/xmlPackage", "flatOpcPkg");
 var flatOpcPkgNs = openXml.flatOpcPkgNs;
 openXml.FLATOPC = {
     _package: new XName(flatOpcPkgNs + "package"),
