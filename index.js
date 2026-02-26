@@ -4558,7 +4558,7 @@ openXml.VT = {
 }
 var VT = openXml.VT;
 
-openXml.wNs = new XNamespace("http://schemas.openxmlformats.org/wordprocessingml/2006/main");
+openXml.wNs = new XNamespace("http://schemas.openxmlformats.org/wordprocessingml/2006/main", "w");
 var wNs = openXml.wNs;
 openXml.W = {
     abstractNum: new XName(wNs, "abstractNum"),
@@ -5361,7 +5361,7 @@ openXml.W10 = {
 }
 var W10 = openXml.W10;
 
-openXml.w14Ns = new XNamespace("http://schemas.microsoft.com/office/word/2010/wordml");
+openXml.w14Ns = new XNamespace("http://schemas.microsoft.com/office/word/2010/wordml", 'w14');
 var w14Ns = openXml.w14Ns;
 openXml.W14 = {
     algn: new XName(w14Ns, "algn"),
